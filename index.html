@@ -1,0 +1,78 @@
+<!-- how to make tables using html Hyper Text Markup Language -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Table </title>
+</head>
+<body>
+    <!-- making time table for school -->
+    <!-- and do some inline CSS Cascading Styile Sheet-->
+    <h2 style="padding-left: 44%; font-size: 2.5rem; background: #000; color: aliceblue;" >Time table</h2>
+    <table border="2"  width="70%"  align="center" cellpadding="10" cellspacing="2">
+        <thead>
+            <tr>
+                <th>Day/Period</th>
+                <th>I <br>9:30-10:20</th>
+                <th>II <br>10:20-11:10</th>
+                <th>III <br>12:00-12:40</th>
+                <th>IV <br>12:40-01:30</th>
+                <th>V <br>01:30-02:10</th>
+                <th>VI <br>02:10-03:00</th>
+                <th>VII <br>03:00-03:30</th>
+                <th>VIII <br>03:00-03:30</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Monday</td>
+                <td >Eng</td>
+                <td>Mat</td>
+                <td>Che</td>
+                <!-- rowspain="value" use for to combine the the numbar ("value") colums -->
+                <!-- if we use rowspain then we have to remove one <td> form all <tr> -->
+                <td rowspan="5">LUNCH</td>
+                <!-- colspain="value" use for to combine the the numbar ("value") rows -->
+                <!-- if we use colspain then the seme number of <td> remover from each <tr> -->
+                <td colspan="3">Lab</td>
+                <td>Phy</td>
+            </tr>
+            <tr>
+                <td>Tuesday</td>
+                <td colspan="3">LAb</td>
+                <td>Mat</td>
+                <td>Phy</td>
+                <td>Che</td>
+                <td>Eng</td>
+                
+            </tr>
+            <tr>
+                <td>Wenasday</td>
+                <td>Che</td>
+                <td>Phy</td>
+                <td>Mat</td>
+                <td>Eng</td>
+                <td colspan="3">Lab</td>
+                
+            </tr>
+            <tr>
+                <td>Thursday</td>
+                <td>Mat</td>
+                <td>Eng</td>
+                <td>Phy</td>
+                <td colspan="3">Lab</td>
+                <td>Che</td>
+            </tr>
+            <tr>
+                <td>Friday</td>
+                <td>Phy</td>
+                <td>Eng</td>
+                <td>Mat</td>
+                <td colspan="3">Lab</td>
+                <td>Che</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
